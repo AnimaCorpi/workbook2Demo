@@ -1,8 +1,8 @@
 "use strict;"
 
 let grossPay = null;
-let payRate = 26.5;
-let hoursWorked = 39.5; 
+let payRate = null;
+let hoursWorked = null; 
 
 if (hoursWorked <= 40){
     grossPay = hoursWorked * payRate
